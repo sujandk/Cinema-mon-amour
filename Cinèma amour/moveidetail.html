@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Page</title>
+    <link rel="icon" type="image/jpg" href="favicon.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="movie.css">
+</head>
+
+<body>
+
+    <!-- navigation bar  -->
+
+
+    <section id="header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#" style="color:red ;">Cinèma</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html" style="color:white ;">Home</a>
+                        </li>
+                        <!-- <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" style="color:white ;">
+                                Genre
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Thriller/Suspense</a></li>
+                                <li><a class="dropdown-item" href="#">Comedy</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Sci-fi</a></li>
+                                <li><a class="dropdown-item" href="#">Horror</a></li>
+                            </ul>
+                        </li> -->
+
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <!-- <input class="form-control me-2 search-input-holder slideRight" type="search"
+                            placeholder="Search" aria-label="Search"> -->
+                        <!-- <button class="btn btn-outline-success search-button" type="submit" style="color:white ;">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" class="search-icon ltr-4z3qvp e1svuwfo1"
+                                data-name="MagnifyingGlass" aria-hidden="true">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10ZM15.6177 17.0319C14.078 18.2635 12.125 19 10 19C5.02944 19 1 14.9706 1 10C1 5.02944 5.02944 1 10 1C14.9706 1 19 5.02944 19 10C19 12.125 18.2635 14.078 17.0319 15.6177L22.7071 21.2929L21.2929 22.7071L15.6177 17.0319Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10ZM15.6177 17.0319C14.078 18.2635 12.125 19 10 19C5.02944 19 1 14.9706 1 10C1 5.02944 5.02944 1 10 1C14.9706 1 19 5.02944 19 10C19 12.125 18.2635 14.078 17.0319 15.6177L22.7071 21.2929L21.2929 22.7071L15.6177 17.0319Z"
+                                fill="currentColor"></path>
+                        </button> -->
+                        <button class="btn btn-outline-success" type="submit" style="color:white ;"> <a href="https://sujanresumepage.z19.web.core.windows.net/"> Sujan</a></button>
+
+                    </form>
+
+                </div>
+            </div>
+        </nav>
+    </section>
+
+
+    <div id="movie-container mt-100 " style="background-color: black;">
+
+        <div class="row">
+
+            <div class="movie-info-container col-md-10">
+
+                <div class="movie-title-flex">
+                    <div class="poster-container">
+                        <span>
+                            <h1>The Equalizer</h1>
+                        </span>
+
+                        <div class="poster-holder">
+                            <div class="poster-here">
+
+                            </div>
+
+                            <div class="rating-holder">
+                                <div style="display: flex; align-items:center; color: white;">
+                                    <span class="ipc-rating-star ipc-rating-star--baseAlt ipc-rating-star--rate"
+                                        height="0.1" width="0.1" style="color:yellow"><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            class="ipc-icon ipc-icon--star-border-inline" viewBox="0 0 24 24"
+                                            fill="currentColor" role="presentation">
+                                            <path
+                                                d="M22.724 8.217l-6.786-.587-2.65-6.22c-.477-1.133-2.103-1.133-2.58 0l-2.65 6.234-6.772.573c-1.234.098-1.739 1.636-.8 2.446l5.146 4.446-1.542 6.598c-.28 1.202 1.023 2.153 2.09 1.51l5.818-3.495 5.819 3.509c1.065.643 2.37-.308 2.089-1.51l-1.542-6.612 5.145-4.446c.94-.81.45-2.348-.785-2.446zm-10.726 8.89l-5.272 3.174 1.402-5.983-4.655-4.026 6.141-.531 2.384-5.634 2.398 5.648 6.14.531-4.654 4.026 1.402 5.983-5.286-3.187z">
+                                            </path>
+                                        </svg></span>
+                                    <span class="rating"> &nbsp; 8.9</span>
+                                </div>
+                                <span class="ipc-rating-star ipc-rating-star--baseAlt ipc-rating-star--rate"
+                                    style="color:lightblue"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                        height="24" class="ipc-icon ipc-icon--star-border-inline" viewBox="0 0 24 24"
+                                        fill="currentColor" role="presentation">
+                                        <path
+                                            d="M22.724 8.217l-6.786-.587-2.65-6.22c-.477-1.133-2.103-1.133-2.58 0l-2.65 6.234-6.772.573c-1.234.098-1.739 1.636-.8 2.446l5.146 4.446-1.542 6.598c-.28 1.202 1.023 2.153 2.09 1.51l5.818-3.495 5.819 3.509c1.065.643 2.37-.308 2.089-1.51l-1.542-6.612 5.145-4.446c.94-.81.45-2.348-.785-2.446zm-10.726 8.89l-5.272 3.174 1.402-5.983-4.655-4.026 6.141-.531 2.384-5.634 2.398 5.648 6.14.531-4.654 4.026 1.402 5.983-5.286-3.187z">
+                                        </path>
+                                    </svg></span>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="info-container">
+                        <div class="genre flex-box">
+                            Genre: adkfjlakjfdl &nbsp; ajldfjla
+                        </div>
+                        <div class="language flex-box">
+                            Genre: adkfjlakjfdl &nbsp; ajldfjla
+                        </div>
+                        <div class="stars flex-box">
+                            Genre: adkfjlakjfdl &nbsp; ajldfjla
+                        </div>
+                        <div class="directors flex-box">
+                            Genre: adkfjlakjfdl &nbsp; ajldfjla
+                        </div>
+                        <div class="run-time flex-box">
+                            Genre: adkfjlakjfdl &nbsp; ajldfjla
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+                <div class="synopsis-flex">
+                    ajskfjaljdflkajlfjalkjflkjaljdflkajfakldhfafljhakjhfdkahlfdkjakjfkjhs
+                </div>
+
+            </div>
+
+        </div>
+
+
+         <!-- footer  -->
+
+     <div class="footer" style="background-color: black; color:white">
+      
+        <div class="row">
+           
+          <div class="col-md-10 footer-container mt-100">
+  
+            <div class="footer-detail-flex">
+              
+              <div>
+                  <a href="https://www.linkedin.com/in/sujan-dhakal10/"> LinkedIn</a>              
+              </div>
+  
+              <div>
+                  <a href="https://github.com/sujandk"> Github</a>
+              </div>
+  
+              <div>
+                   <a href="https://sujanresumepage.z19.web.core.windows.net/"> Resume Page</a>
+              </div>
+  
+            </div>
+  
+            <hr class="horizontal-line">
+  
+            <div class="copy-right-flex">
+                   © <a href="">2024 Sujan Dhakal</a>, ULM
+            </div>
+  
+          </div>
+  
+        </div>
+  
+  
+       </div>
+  
+
+
+        <script type="module" src="movie.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
+
+
+
+
+</body>
+
+</html>

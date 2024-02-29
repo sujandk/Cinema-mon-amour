@@ -1,0 +1,163 @@
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* body{
+    background-color: black;
+} */
+
+/* Animation  */
+
+@keyframes slideRight {
+    from {
+        transform: translateX(400px);
+    }
+
+    to {
+        transform: translateX(var(--x-coordinate));
+    }
+}
+
+.slideRight {
+    animation: slideRight 2s ease-out 0.5s 1 normal both;
+}
+
+/* Header Style  */
+
+.btn {
+    border: none;
+}
+
+#header {
+    background-color: black;
+}
+
+.dropdown-menu {
+    background-color: black;
+}
+
+.search-input-holder {
+    display: none;
+}
+
+.dropdown-item:hover {
+    color: black;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+
+/* single movie information  */
+
+.row{
+    display: flex;
+    align-content:center ;
+    justify-content: center;
+}
+
+.movie-info-container{
+    margin: 60px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+}
+
+.info-container{
+    display: flex;
+    /* padding: 80px 80px 20px; */
+    flex-direction: column;
+    width: calc(50%);
+    margin-top: 80px;
+   margin-left: 80px;
+    padding-right: 60px;
+}
+
+
+.movie-title-flex{
+   display: flex;
+   width: 100%;
+}
+
+.flex-box{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 12px ;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    border-bottom: 1px solid lightgray;
+    /* width: calc(50%); */
+}
+
+.poster-container{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 250px;
+}
+
+.poster-holder{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.rating-holder {
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+    flex-direction: row;
+    margin: 10px 0px 10px 0px;
+    color: #202020;
+}
+
+.poster-here{
+    height: 43vh;
+    padding-top: 20px 0px 0px 0px;
+    background-image: url('theequalizer.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.synopsis-flex{
+    display: flex;
+    margin-top: 20px;
+}
+
+
+/* footer styles  */
+.footer-detail-flex{
+    display: flex;
+    margin: 50px 0px 20px 0px;
+    flex-direction: row;
+    color: white;
+    justify-content: space-evenly;
+    font-size: 20px;
+    padding: 20px 20px 0 20px;
+    align-items: center;
+    
+}
+
+.footer-container{
+    height: 30vh;
+    margin-top: 40px;
+}
+
+.copy-right-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+
