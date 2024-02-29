@@ -4,7 +4,7 @@
  </b> </h3> 
 <h1> Overview</h1>
 
-<h3> This web application allows users to filter through a curated collection of movies based on various genres such as Action, Comedy, Drama, Sci-Fi, and more. Users can easily select their preferred genre from the provided list, and the webpage dynamically updates to display movies matching the selected genre.</h3>
+<h3> This web application allows users to filter through a curated collection of movies based on various genres such as Action, Comedy, Thriller, Sci-Fi, and Horror Users can easily select their preferred genre from the provided list, and the webpage dynamically updates to display movies matching the selected genre.</h3>
 
 
  <h2> Features</h2>
